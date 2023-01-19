@@ -40,7 +40,7 @@ const Header = () => {
             <p className="pr-20 text-3xl text-secondary font-black">Out</p>
           </div>
         </Link>
-        <ul className="hidden md:flex flex-row items-center">
+        <ul className="hidden res:flex flex-row items-center">
           {sections.map((section) => (
             <a key={section.name} href={section.link}>
               <li>{section.name}</li>
